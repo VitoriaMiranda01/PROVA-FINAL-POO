@@ -1,6 +1,4 @@
-import classes.Produto;
-import classes.Venda;
-
+package programas;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -12,6 +10,8 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 import javax.sound.midi.SysexMessage;
+
+import classes.Produto;
 
 public class App {
     public static void main(String[] args) throws Exception {
